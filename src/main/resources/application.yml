@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_example?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: admin
+        
+server:
+    port: 8080
+    ##ssl:
+      ##key-store: file:C:/Users/juarejo/Documents/keys/mykeys.jks
+      ##key-store-password: caracteres
+      ##key-password: caracteres
+
+
